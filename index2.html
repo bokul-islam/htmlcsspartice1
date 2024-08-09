@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights for Business Growth</title>
+    <style>
+        body {
+            background-color: #181818;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #282c34;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: 30px;
+        }
+
+        .text-section {
+            width: 50%;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .image-section {
+            width: 50%;
+            position: relative;
+        }
+
+        .image-section img {
+            width: 100%;
+            border-radius: 10px;
+            filter: grayscale(1);
+            opacity: 0.8;
+        }
+
+        .image-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        .image-section::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 15px solid #8e44ad;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-section">
+            <h1>Get insights that help your business grow.</h1>
+            <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+            <div class="stats">
+                <div class="stat">
+                    <span class="stat-number">10k+</span>
+                    <p>COMPANIES</p>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">314</span>
+                    <p>TEMPLATES</p>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">12M+</span>
+                    <p>QUERIES</p>
+                </div>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="https://images.unsplash.com/photo-1542362567-b07e5e55bfdd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1023&q=80" alt="Businesspeople working">
+        </div>
+    </div>
+</body>
+</html>
