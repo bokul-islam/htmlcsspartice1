@@ -61,10 +61,111 @@ span{
     height: 100%;
     top: 0;
 }
-@media screen and (max-width:650px){
+@media screen and (max-width:895px){
     .container{
-      background-color: aqua;
-      display: flex;
-      flex-direction: column !important;
+      background-color: hsl(233, 47%, 7%);
+    }
+    .text{
+        background-color: hsl(244, 38%, 16%);;
+        flex-basis: 50%; 
+        padding: 30px 100px 30px 50px !important;
+    }
+    .h22{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 25px;
+    }
+    .p{
+        font-weight: 400;
+        color:  hsla(0, 0%, 100%, 0.6);
+        margin-bottom: 35px;
+    }
+}
+@media screen and (max-width:795px){
+    .container{
+      background-color:  hsl(233, 47%, 7%);
+    }
+    .text{
+        background-color: hsl(244, 38%, 16%);;
+        flex-basis: 50%; 
+        padding: 30px 60px 30px 50px !important;
+    }
+    .h22{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 18px;
+    }
+    .p{
+        font-weight: 400;
+        color:  hsla(0, 0%, 100%, 0.6);
+        margin-bottom: 27px;
+    }
+}
+@media screen and (max-width:600px){
+    .container{
+      background-color:  hsl(233, 47%, 7%);
+    }
+    .text{
+        background-color: hsl(244, 38%, 16%);;
+        flex-basis: 50%; 
+        padding: 20px 40px 20px 40px !important;
+    }
+    .h22{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 15px;
+    }
+    .p{
+        font-weight: 400;
+        color:  hsla(0, 0%, 100%, 0.6);
+        margin-bottom: 25px;
+    }
+}
+@media screen and (max-width:400px){
+    .container{
+        height: 900px;
+        background-color: hsl(233, 47%, 7%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        height: 698px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        flex-flow: column-reverse;
+        text-align: center;
+    }
+    .text{
+        background-color: hsl(244, 38%, 16%);;
+        flex-basis: 50%; 
+        padding: 0px 80px 30px 50px !important;
+    }
+    .image{
+        flex-basis: 50%;
+        position: relative;
+    }
+    .h22{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 35px;
+    }
+    .p{
+        font-weight: 400;
+        color:  hsla(0, 0%, 100%, 0.6);
+        margin-bottom: 55px;
+    }
+    .icon{
+    display: flex;
+    flex-direction: column;
     }
 }
